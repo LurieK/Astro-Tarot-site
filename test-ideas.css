@@ -33,8 +33,11 @@ body {
 .menu {
   margin-bottom: 20px;
   margin-top: 20px;
+  justify-content: center;
+}
+.search {
+  background-color:rgb(49, 6, 87);
   
-
 }
 .three-card, .celtic-cross, .love, .money {
   color:rgb(232, 229, 235);
@@ -44,7 +47,7 @@ body {
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  margin-right: 40px;
+  justify-content: center;
 }
 .btn {
   background-color: rgb(49, 6, 87);
