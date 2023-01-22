@@ -1,6 +1,11 @@
 const dropdownBtn = document.getElementById("btn");
 const dropdownMenu = document.getElementById("dropdown");
 const toggleArrow = document.getElementById("arrow");
+const threeCardPast = document.getElementById ('card1');
+const threeCardPresent = document.getElementById ('card2');
+const threeCardFuture = document.getElementById ('card3');
+
+//add the selected tarot card to card1
 
 // Toggle dropdown function
 const toggleDropdown = function () {

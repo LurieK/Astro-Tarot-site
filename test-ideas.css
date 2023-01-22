@@ -30,7 +30,21 @@ body {
   font-size: 0.9rem;
   color: rgb(255, 255, 255);
 }
+.menu {
+  margin-bottom: 20px;
+  
 
+}
+.three-card, .celtic-cross, .love, .money {
+  color:rgb(232, 229, 235);
+  background-color:rgb(49, 6, 87);
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 40px;
+}
 .btn {
   background-color: rgb(49, 6, 87);
   color: white;
