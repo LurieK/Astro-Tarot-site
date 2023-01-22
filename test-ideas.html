@@ -5,23 +5,27 @@
 </head>
 <header class="title" id="title">
   <h1>Master the Tarot</h1>
+
+  <div class="menu" id="menu">
+    <button class="three-card" id="three-card">Three Card Spread</button>
+    <button class="celtic-cross" id="celtic-cross"> Celtic Cross</button>
+    <button class="love" id="love">Love/Relationships Spread</button>
+    <button class="money" id="money">Career and Money Spread</button>
+  </div>
 </header>
 <body>
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-<div class="menu" id="menu">
-  <button class="three-card" id="three-card">Three Card Spread</button>
-  <button class="celtic-cross" id="celtic-cross"> Celtic Cross</button>
-  <button class="love" id="love">Love/Relationships Spread</button>
-  <button class="money" id="money">Career and Money Spread</button>
-</div>
-
-<div class="container">
-  <button class="btn" id="btn">
-    Tarot Cards
-    <i class="bx bx-chevron-down" id="arrow"></i>
-  </button>
-    <ul class="selectCard" id="selectCard" >
+  <div class="spread">
+    <div class="select-btn">
+      <span>Select Card</span>
+      <!-- add down arrow -->
+    </div>
+     <div class="content">
+      <div class="search">
+        <!-- add search icon -->
+        <input type="text" placeholder="Search Card">
+      </div>
+      <ul class="selectCard" id="selectCard" >
         <li id="fool"> the Fool</li>
         <li id="magician"> the Magician</li>
         <li id="priestess"> the High Priestess</li>
@@ -61,6 +65,16 @@
 
 
     </ul>
+    </div>
+    
+
+
+
+  </div>
+
+
+  
+    
 
   
 
@@ -70,7 +84,7 @@
     <p id="card3">Card 3</p>
     
   </div>
-</div>
+
 
 <script src="test-ideas.js"></script>
 </body>
