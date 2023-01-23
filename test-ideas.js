@@ -6,8 +6,19 @@ const threeCardFuture = document.getElementById ('card3');
 //add the selected tarot card to card1
 
 const spread= document.querySelector(".spread")
-let selectBtn = document.getElementsByClassName("select-btn");
+const selectBtn = document.querySelector(".select-btn");
+const cardList = document.querySelectorAll('.content');
 
-selectBtn.addEventListener('click', () => {
-  spread.classList.toggle('content');
+function showCardList() {
+  cardList.forEach(elem => {elem.style.display ='block';
 });
+};
+
+selectBtn.addEventListener('click',showCardList);
+
+document.addEventListener('click', function closeCardList(event) {
+  
+  if (!cardList.contains(event.target)) {
+    cardList.style.display = 'none';
+  }
+})

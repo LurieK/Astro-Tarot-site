@@ -51,7 +51,7 @@ body {
   
 }
 .content {
-  display: hidden;
+  display:none;
   padding: 20px;
   margin-top: 15px;  
   border-radius: 7px;
