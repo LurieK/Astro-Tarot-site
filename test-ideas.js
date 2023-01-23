@@ -1,9 +1,26 @@
 
-const threeCardPast = document.getElementById ('card1');
-const threeCardPresent = document.getElementById ('card2');
-const threeCardFuture = document.getElementById ('card3');
+//selects the box user wants to place card in
 
-//add the selected tarot card to card1
+// const threeCardPast = document.getElementById ('card1');
+// const threeCardPresent = document.getElementById ('card2');
+// const threeCardFuture = document.getElementById ('card3');
+
+
+
+// function highlightBox() {
+//   x.style.borderColor ='green';
+// }
+
+// threeCardFuture.addEventListener('click',highlightBox);
+
+// document.addEventListener('click', function closeCardList(event) {
+  
+//   if (!cardList.contains(event.target)) {
+//     cardList.style.display = 'none';
+//   }
+// })
+
+//opens and closes CardList and Search 
 
 const spread= document.querySelector(".spread")
 const selectBtn = document.querySelector(".select-btn");
