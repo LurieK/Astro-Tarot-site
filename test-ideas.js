@@ -18,7 +18,7 @@ selectBtn.addEventListener('click',showCardList);
 
 document.addEventListener('click', function closeCardList(event) {
   
-  if (!cardList.contains(event.target)) {
-    cardList.style.display = 'none';
+  if (!spread.contains(event.target)) {
+    cardList.forEach(card => {card.style.display = 'none';});
   }
-})
+});
