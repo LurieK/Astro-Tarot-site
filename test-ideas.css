@@ -24,7 +24,7 @@ body {
 .menu {
   margin-bottom: 20px;
   margin-top: 20px;
-  justify-content: center;
+  align-items: center;
 }
 .spread {
   width: 370px;
@@ -42,7 +42,7 @@ body {
   height: 65px;
   font-size: 22px;
   color:rgb(232, 229, 235);
-  display: flex;
+  
   cursor: pointer;
   padding: 0 20px;
   border-radius: 7px;
@@ -51,16 +51,14 @@ body {
   
 }
 .content {
-  display: none;
+  display: hidden;
   padding: 20px;
   margin-top: 15px;  
   border-radius: 7px;
   background:white;
 }
 
-.spread .active .content {
-  display: block;
-}
+
 
 .content .search {
   position: relative;
