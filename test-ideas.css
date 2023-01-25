@@ -6,8 +6,7 @@
   font-style: normal;
 }
 
-/* Currently the spacing is off on the dropdown list:
-need to fix the way it highlights with the hover, and general spacing */
+
 #title h1{
   font-family: 'krysttal Spears';
   font-size: 100px;
@@ -21,11 +20,29 @@ body {
   font-size: 0.9rem;
   color: rgb(49, 6, 87);
 }
+
+/* Menu */ 
+/*Why isn't this center? */
 .menu {
   margin-bottom: 20px;
   margin-top: 20px;
   align-items: center;
 }
+
+.three-card, .celtic-cross, .love, .money {
+  color:rgb(232, 229, 235);
+  background-color:rgb(49, 6, 87);
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  justify-content: center;
+  
+}
+
+
+/* drop down */
 .spread {
   width: 370px;
   margin: 130px auto 0;
@@ -117,20 +134,13 @@ body {
 
 }
 
-.three-card, .celtic-cross, .love, .money {
-  color:rgb(232, 229, 235);
-  background-color:rgb(49, 6, 87);
-  border: none;
-  padding: 10px 15px;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  justify-content: center;
-  
-}
+
+/* card meanings */
 
 
 
+
+/* Spreads */
 
 .three-cards {
   color:rgb(49, 6, 87);
@@ -141,6 +151,7 @@ body {
   flex-direction: row;
   flex:auto;
   cursor: pointer;
+  display: none;
   
 }
 
@@ -155,7 +166,7 @@ body {
     float: left;
     border-color: #166e67;
     box-sizing: border-box;
-    cursor: pointer;
+    
 }
 #card2 {
   padding: 30px;
@@ -168,7 +179,7 @@ body {
     float: left;
     border-color: #166e67;
     box-sizing: border-box;
-    cursor: pointer;
+    
 }
 #card3 {
   padding: 30px;
