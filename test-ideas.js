@@ -49,6 +49,58 @@ function highlightThirdBox() {
 
 threeCardFuture.addEventListener('click', highlightThirdBox);
 
+//When selecting a card from the dropdown, that card and it's meaning appears//
+
+//the fool
+const theFool = document.getElementById('fool-meaning');
+const foolDrpDwn =document.getElementById('fool');
+
+function showFool(){
+  theFool.style.display = 'block';
+}
+
+foolDrpDwn.addEventListener('click', showFool);
+
+//the Magician
+const theMag = document.getElementById('magician-meaning');
+const magDrpDwn =document.getElementById('magician');
+
+function showMag(){
+  theMag.style.display = 'block';
+}
+
+magDrpDwn.addEventListener('click', showMag);
+// the High priestess
+
+const thePriestess = document.getElementById('priestess-meaning');
+const priestessDrpDwn =document.getElementById('priestess');
+
+function showPriestess(){
+  thePriestess.style.display = 'block';
+}
+
+priestessDrpDwn.addEventListener('click', showPriestess);
+// the empress
+// the emperor
+// the heirphant
+// the lovers
+// the chariot
+// strength
+// the hermit
+// the Wheel
+// justice
+// the hanged man 
+// death
+// temprence
+// the devil 
+// the tower
+// the Star 
+// the moon 
+// the sun 
+// judgement
+// the world 
+
+
 //unselect box when clicking outside of the square
 
 // function resetCards(){
@@ -57,9 +109,9 @@ threeCardFuture.addEventListener('click', highlightThirdBox);
 //   threeCardFuture.style.borderColor = '';
 // }
 
-document.addEventListener('click', function unhighlightCard(event) {
+// document.addEventListener('click', function unhighlightCard(event) {
   
-  if (!spreadSpace.contains(event.target)) {
-    allThree.forEach(box => {box.style.borderColor = '';});
-  }
-});
+//   if (!spreadSpace.contains(event.target)) {
+//     allThree.forEach(box => {box.style.borderColor = '';});
+//   }
+// });
