@@ -50,7 +50,7 @@ function highlightThirdBox() {
 threeCardFuture.addEventListener('click', highlightThirdBox);
 
 //When selecting a card from the dropdown, that card and it's meaning appears//
-
+//there must be a way to create one function for the whole site.
 //the fool
 const theFool = document.getElementById('fool-meaning');
 const foolDrpDwn =document.getElementById('fool');
