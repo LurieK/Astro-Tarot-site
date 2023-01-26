@@ -145,6 +145,7 @@ body {
   font-size: 40px;
   text-align: center;
   margin: 40px;
+  flex-shrink: 2;
 }
 
 .card-meanings .card-image {
