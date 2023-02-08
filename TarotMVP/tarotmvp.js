@@ -1,5 +1,9 @@
 
-    cards = ['Fool', 'The Magician', 'The High Priestess', 'The Emperor', 'The Empress', 'The Heirophant', 'The Lovers', 
+    cards = [
+        {
+            Name:'Fool'
+            img: './'
+}, 'The Magician', 'The High Priestess', 'The Emperor', 'The Empress', 'The Heirophant', 'The Lovers', 
     'The Chariot', 'Strength', 'The Hermit','Judgement', 'The Hanged Man', 'The Wheel of Fortune', 'Death', 'Temprence', 
     'The Devil', 'The Tower', 'The Star', 'The Moon', 'The Sun', 'Judgement', 'The World', 'King of Wands', 'King of Cups', 'King of Pentacles', 'King of Swords',
     'Queen of Wands', 'Queen of Cups', 'Queen of Pentacles', 'Queen of Swords', 'Knight of Wands', 'Knight of Cups', 'Knight of Pentacles', 'Knight of Swords',
@@ -27,7 +31,7 @@ const cardChoice = document.querySelector(".card-choice");
 
 button.addEventListener('click', function (){
     let randomIndex = Math.floor(Math.random()*cards.length);
-    let randomCard = quotes[randomIndex];
+    let randomCard = cards[randomIndex];
     cardChoice.innerHTML = randomCard;
 });
 
