@@ -86,11 +86,7 @@
 const button = document.querySelector(".button");
 const cardChoice = document.querySelector(".card-choice"); 
 
-// function showQuote() {
-//     let randomIndex = Math.floor(Math.random()*quotes.length);
-//     let randomQuote = quotes[randomIndex];
-//     document.quoteDisplay.innerHTML = randomQuote
-// };
+
 
 button.addEventListener('click', function (){
     let randomIndex = Math.floor(Math.random()*cards.length);
@@ -98,10 +94,3 @@ button.addEventListener('click', function (){
     cardChoice.innerHTML = `<h3>${randomCard.Name}</h3><img src="${randomCard.img}" alt="${randomCard.Name}" style="display: block;">`
 });
 
-// cardChoice.innerHTML = `<h2>${randomCard.Name}</h2><img src="${randomCard.img}" alt="${randomCard.Name}" style="display: block;">`;
-
-
-// button.addEventListener("click", function() {
-//   const randomIndex = Math.floor(Math.random() * quotes.length);
-//   quoteDisplay.textContent = quotes[randomIndex];
-// });
