@@ -21,9 +21,22 @@ body {
   color: rgb(49, 6, 87);
 }
 
+button {
+  height: 65px;
+  font-size: 22px;
+  color:rgb(232, 229, 235);
+  
+  cursor: pointer;
+  padding: 0 20px;
+  border-radius: 7px;
+  background: rgb(49, 6, 87);
+  justify-content: space-between;
+  
+}
+
 /* Menu */ 
 /*Why isn't this center? */
-.menu {
+/* .menu {
   margin-bottom: 20px;
   margin-top: 20px;
   display: flex;
@@ -40,11 +53,11 @@ body {
   margin-left: 14px;
   
   
-}
+} */
 
 
 /* drop down */
-.spread {
+/* .spread {
   width: 370px;
   margin: 130px auto 0;
 
@@ -133,13 +146,13 @@ body {
   width: 190px;
   color:rgba(97, 6, 97, 0.501)
 
-}
+} */
 
 
 /* card meanings */
 /* don't like bitter font.  Need something that matches the font of the card */
 
-.card-meanings h1 {
+/* .card-meanings h1 {
   color: rgb(49, 6, 87);
   font-family: 'raleway';
   font-size: 40px;
@@ -169,7 +182,7 @@ body {
   margin-left: 40px;
   margin-right: 40px;
 }
-#fool-meaning {
+#fool {
   display: none;
 }
 
@@ -179,10 +192,10 @@ body {
 
 #priestess-meaning {
   display: none;
-}
+} */
 /* Spreads */
 
-.three-cards {
+/* .three-cards {
   color:rgb(49, 6, 87);
   margin: auto;
   margin-top: 100px;
@@ -193,5 +206,5 @@ body {
   cursor: pointer;
   display: none;
   
-}
+} */
 
