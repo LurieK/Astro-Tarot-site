@@ -95,7 +95,7 @@ const cardChoice = document.querySelector(".card-choice");
 button.addEventListener('click', function (){
     let randomIndex = Math.floor(Math.random()*cards.length);
     let randomCard = cards[randomIndex];
-    cardChoice.innerHTML = `${randomCard.Name}<img src="${randomCard.img}" alt="${randomCard.Name}" style="display: block;">`
+    cardChoice.innerHTML = `<h3>${randomCard.Name}</h3><img src="${randomCard.img}" alt="${randomCard.Name}" style="display: block;">`
 });
 
 // cardChoice.innerHTML = `<h2>${randomCard.Name}</h2><img src="${randomCard.img}" alt="${randomCard.Name}" style="display: block;">`;
