@@ -22,11 +22,17 @@ body {
   background-color: #f1f3f4;
   font-size: 0.9rem;
   color: rgb(49, 6, 87);
+
   
 }
 
-button h2 
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
+}
 button {
   height: 65px;
   font-size: 22px;
@@ -34,7 +40,6 @@ button {
   cursor: pointer;
   padding: 0 20px;
   background: rgb(49, 6, 87);
-  justify-content: space-between;
   border: none;
   
 }
@@ -43,6 +48,7 @@ h2{
   font-family: 'raleway';
   font-size: 30px;
   font-weight: 400;
+  justify-content: center;
 }
 
 /* Menu */ 
